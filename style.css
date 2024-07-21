@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #eee;
+}
+h1 {
+  text-align: center;
+  color: rgb(1, 119, 139);
+  margin: 20px auto;
+  border-radius: 5px;
+  width: 40%;
+  border: 2px solid #5555;
+  padding: 10px;
+  cursor: pointer;
+}
+ul {
+  background-color: #ddd;
+  margin: 30px auto;
+  padding: 20px;
+  width: 400px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  width: 60px;
+  height: 60px;
+  border: 2px solid transparent;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+ul li.active,
+ul li:hover {
+  opacity: 1;
+}
+
+ul li:first-child {
+  background-color: red;
+}
+ul li:nth-child(2) {
+  background-color: green;
+}
+ul li:nth-child(3) {
+  background-color: yellow;
+}
+ul li:nth-child(4) {
+  background-color: blue;
+}
+.experiment {
+  background-color: red;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  border-radius: 50%;
+}
